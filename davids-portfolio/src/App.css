@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(207, 212, 216);
+}
+
 .header {
   border: 1px solid black;
   display: flex;
@@ -10,8 +14,21 @@
   flex-direction: row;
   align-items: center;
   padding-right: 25%;
-  padding-left: 1%;
-  gap: 25px;
+  padding-left: 3%;
+  gap: 30px;
+  
+}
+
+i {
+  font-size: 35px;
+  color: black;
+  padding: 0 10px 0 10px;
+}
+
+i:hover {
+  color: red;
+  font-size: 40px;
+  
 }
 
 .header_links_wrapper {
