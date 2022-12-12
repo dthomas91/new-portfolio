@@ -4,6 +4,7 @@ const Header = () => {
   return (
     <>
       <div className="header">
+        <img className="me" src={require('../assets/me.jpg')}/>
         <div className="header_icons">
           <a
             href="https://www.linkedin.com/in/david-thomas-856410166/"

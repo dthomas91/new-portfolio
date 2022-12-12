@@ -8,6 +8,11 @@ body {
   font-family: sans-serif;
 }
 
+.me {
+  border-radius: 50%;
+  width: 15%;
+}
+
 .header {
   border: 1px solid black;
   display: flex;
@@ -44,11 +49,12 @@ i:hover {
   padding-left: 25%;
   padding-right: 5%;
   gap: 25px;
+  align-items: center;
 }
 
 .header_links {
   color: #f0f0f0;
   text-decoration: none;
   border-bottom: 3px solid #f0f0f0;
-  padding-bottom: 2px
+  padding-bottom: 2px;
 }
