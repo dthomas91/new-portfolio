@@ -19,27 +19,6 @@ body {
   align-items: center;
 }
 
-.header_icons {
-  border: 1px solid red;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding-right: 25%;
-  padding-left: 3%;
-  gap: 30px;
-}
-
-i {
-  font-size: 35px;
-  color: #f0f0f0;
-  padding: 0 10px 0 10px;
-}
-
-i:hover {
-  color: red;
-  font-size: 40px;
-}
-
 .header_links_wrapper {
   display: flex;
   gap: 25px;
@@ -77,4 +56,49 @@ i:hover {
 }
 
 /* ------------------------------------Start of home-------------------------------*/
+.home-container {
+  margin: 0 10% 0 10%;
+}
 
+.name-title > p {
+  margin-top: -12px;
+}
+
+.greeting {
+  margin-top: 3rem;
+  text-align: center;
+  /* background-color: #303e40; */
+  font-size: 35px;
+}
+
+.invitation {
+  margin-top: 3rem;
+  text-align: center;
+  background-color: #303e40;
+  font-size: 25px;
+}
+
+.icon-links-intro {
+  margin-top: 7rem;
+  text-align: center;
+  background-color: #303e40;
+  font-size: 20px;
+}
+
+.icon-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+i {
+  font-size: 3.5rem;
+}
+
+i:hover {
+  font-size: 4rem;
+  cursor: pointer;
+}

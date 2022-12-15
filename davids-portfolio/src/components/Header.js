@@ -5,15 +5,6 @@ const Header = () => {
     <>
       <div className="header">
         <img className="me" src={require("../assets/me.jpg")} />
-        {/* <div className="header_icons">
-          <a
-            href="https://www.linkedin.com/in/david-thomas-856410166/"
-            target="_blank"
-          >
-            <i className="fa-brands fa-linkedin"></i>
-          </a>
-          <i className="fa-brands fa-github"></i>
-        </div> */}
         <div className="header_links_wrapper">
           <p>
             <a className="header_links" href="./">
